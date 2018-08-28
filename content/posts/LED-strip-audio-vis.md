@@ -1,7 +1,6 @@
 ---
 title: "LED Strip Audio Visualizer"
 date: 2018-08-27T18:38:28-07:00
-draft: true
 ---
 
 ![Still needs PCB](https://i.imgur.com/kyTvX4Y.jpg)

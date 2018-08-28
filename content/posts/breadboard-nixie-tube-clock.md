@@ -1,7 +1,6 @@
 ---
 title: "Breadboard Nixie Tube Clock"
 date: 2018-08-27T16:54:07-07:00
-draft: true
 ---
 ![PCB pending](https://i.imgur.com/jWj98FP.jpg)
 
