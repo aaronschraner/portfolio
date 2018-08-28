@@ -23,7 +23,7 @@ It is worth noting that because this uses wired-AND, volume control only works w
 Remote
 ------
 Volume control wouldn't be very useful if you still had to walk to the speakers to change it. The volume can be controlled either by sending the device characters over UART (38400 baud, '+' for volume up, '-' for volume down), or by using the knob on a remote control. The remote uses an [nRF24L01+ transciever module](https://www.amazon.com/Makerfire-Arduino-NRF24L01-Wireless-Transceiver/dp/B00O9O868G/) and is controlled by an ATMega328p. 
-The remote is simple to use. Turning the knob clockwise increases the volume and counter-clockwise decreases it. After a few seconds of inactivity the remote returns to a low-power sleep mode that draws about 1.5 microamps when using a 3V battery. Turning the knob fires a pin-change interrupt that wakes it from sleep. With normal usage, the remote batteries should last several months or longer. All of the code for the remote is in a [subdirectory of the github repo](https://github.com/aaronschraner/soundstrip/tree/master/remote). Code for the nRF module is partially based on [tmrh20's RF24 library](https://github.com/nRF24/RF24), but was written primarily from scratch using the nRF datasheet. For the purpose of interference hunting, the LED on Pin 13 of the arduino will light up when interference is detected in the carrier frequency band (2,476 MHz). 
+The remote is simple to use. Turning the knob clockwise increases the volume and counter-clockwise decreases it. After a few seconds of inactivity the remote returns to a low-power sleep mode that draws about 1.5 microamps when using a 3V battery. Turning the knob fires a pin-change interrupt that wakes it from sleep. With normal usage, the remote batteries should last several months or longer. All of the code for the remote is in a [subdirectory of the github repo](https://github.com/aaronschraner/soundstrip/tree/master/remote). Code for the nRF module is partially based on [tmrh20's RF24 library](https://github.com/nRF24/RF24), but was written almost entirely from scratch using the nRF datasheet. For the purpose of interference hunting, the LED on Pin 13 of the arduino will light up when interference is detected in the carrier frequency band (2,476 MHz). 
 
 Schematics
 ---------
@@ -48,4 +48,10 @@ Issues
 
 * Audio input does not have an anti-aliasing filter
 * Still need to make PCB for base station
+* Audio connector
+
+Fixed issue: weird current draw behavior 
+{{< youtube dwb-vvcFRxA >}}
+![Audio connector](https://i.imgur.com/SbqVqfR.jpg)
+
 
