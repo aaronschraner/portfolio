@@ -4,7 +4,7 @@ date: 2018-08-30T17:48:56-07:00
 ---
 
 ![Measuring voltage](https://i.imgur.com/ENSOZiT.jpg)
-![Measuring resistance](https://i.imgur.com/undefined.jpg)
+![Measuring resistance](https://i.imgur.com/OlShoM7.jpg)
 ![Built-in flashlight](https://i.imgur.com/biotC4o.jpg)
 
 Description
