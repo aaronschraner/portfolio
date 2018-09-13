@@ -38,6 +38,7 @@ The custom mounting of the NOR gate IC pictured in the top image was our last-mi
 
 
 
+[Link to google site](https://sites.google.com/a/oregonstate.edu/ece44x201709/ece-senior-design-example-project/documentation)
 
 
 
