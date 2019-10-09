@@ -81,8 +81,6 @@ Does it work?
 -------------
 
 ### Yes.
+{{< youtube sibEAl7M5Qc >}}
 ![](https://i.imgur.com/zndSrtm.jpg)
-
-
-
 
