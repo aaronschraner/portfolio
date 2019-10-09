@@ -1,7 +1,6 @@
 ---
 title: "High Brightness LED Glasses"
 date: 2019-10-08T22:59:14-04:00
-draft: true
 ---
 
 ![](https://i.imgur.com/d11aYmN.jpg "The device")
