@@ -79,8 +79,9 @@ The calculated max current output for the boost converter is `I = 3A * (OCR0A/25
 
 Does it work?
 -------------
-
-### Yes.
 {{< youtube sibEAl7M5Qc >}}
+
+#### My friend giving them a test run
+
 ![](https://i.imgur.com/zndSrtm.jpg)
 
