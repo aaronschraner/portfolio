@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Aaron Schraner  | Multimeter Watch</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.47.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Multimeter Watch" />
+<meta property="og:description" content="Description This project is a small form-factor digital multimeter capable of measuring DC voltage (up to &#43;/-60V) and resistance. It is powered by an ADS1115 ADC module and ATMega328P microcontroller. The screen is a Broadcom HCMS-2912 dot matrix display, which has integrated brightness control and refresh circuitry. I built it in Spring 2017.
+Features The multimeter is capable of measuring DC voltage up to &#43;/- 60 Volts and resistance from 100 ohms to 50 kohms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://aaronschraner.com/posts/multimeter-watch/" /><meta property="article:published_time" content="2018-08-30T17:48:56-07:00"/>
+<meta property="article:modified_time" content="2018-08-30T17:48:56-07:00"/>
+<meta itemprop="name" content="Multimeter Watch">
+<meta itemprop="description" content="Description This project is a small form-factor digital multimeter capable of measuring DC voltage (up to &#43;/-60V) and resistance. It is powered by an ADS1115 ADC module and ATMega328P microcontroller. The screen is a Broadcom HCMS-2912 dot matrix display, which has integrated brightness control and refresh circuitry. I built it in Spring 2017.
+Features The multimeter is capable of measuring DC voltage up to &#43;/- 60 Volts and resistance from 100 ohms to 50 kohms.">
+
+
+<meta itemprop="datePublished" content="2018-08-30T17:48:56-07:00" />
+<meta itemprop="dateModified" content="2018-08-30T17:48:56-07:00" />
+<meta itemprop="wordCount" content="719">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Multimeter Watch"/>
+<meta name="twitter:description" content="Description This project is a small form-factor digital multimeter capable of measuring DC voltage (up to &#43;/-60V) and resistance. It is powered by an ADS1115 ADC module and ATMega328P microcontroller. The screen is a Broadcom HCMS-2912 dot matrix display, which has integrated brightness control and refresh circuitry. I built it in Spring 2017.
+Features The multimeter is capable of measuring DC voltage up to &#43;/- 60 Volts and resistance from 100 ohms to 50 kohms."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://aaronschraner.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Aaron Schraner
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Multimeter Watch</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-08-30T17:48:56-07:00">August 30, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p><img src="https://i.imgur.com/ENSOZiT.jpg" alt="Measuring voltage" />
+<img src="https://i.imgur.com/OlShoM7.jpg" alt="Measuring resistance" />
+<img src="https://i.imgur.com/biotC4o.jpg" alt="Built-in flashlight" /></p>
+
+<h2 id="description">Description</h2>
+
+<p>This project is a small form-factor digital multimeter capable of measuring DC voltage (up to +/-60V) and resistance. It is powered by an <a href="https://www.adafruit.com/product/1085">ADS1115 ADC module</a> and ATMega328P microcontroller. The screen is a Broadcom HCMS-2912 dot matrix display, which has integrated brightness control and refresh circuitry. I built it in Spring 2017.</p>
+
+<h2 id="features">Features</h2>
+
+<p>The multimeter is capable of measuring DC voltage up to +/- 60 Volts and resistance from 100 ohms to 50 kohms. It also has a built-in flashlight.</p>
+
+<h2 id="backstory">Backstory</h2>
+
+<p>In week 7 of Spring 2017, I got an email from the OSU scholarship office saying that because I had failed a class in winter term, I was not on track to meet the credit requirement for my scholarship by the end of the year.
+I visited the scholarship office that day and asked them what my options were, and they told me that there was nothing I could do except apply for a different scholarship and hope for the best. This really wasn&rsquo;t a good option for me, so I met with an advisor in the college of EECS (Nick Malos), who told me my options were limited, but not nonexistant. He suggested I do a project for the 2 credits I needed to keep my scholarship another year. I asked Don Heer to sponsor the project (approve the proposal and check that I met the requirements at the end of the term) and he agreed. At this point it was almost the end of the term, and I had to finish the project in addition to studying for finals and wrapping up other classes.
+I finished the project around 5 AM on June 16th, the day of my final checkoff with Don and my 19th birthday. Though the resistance measurement functionality was on the edge of being out of spec, Don approved the project and I was able to keep my scholarship for my final year at OSU.</p>
+
+<h2 id="issues">Issues</h2>
+
+<p>I originally had plans for the multimeter watch to work like a normal watch - with the ability to display the current time, but I think I made an error in calculating the capacitor values for the 32kHz crystal circuit, because instead of acting as a 32kHz oscillator, it acted as a high voltage detector which rapidly incremented timer/counter 2 whenever the circuit was near high voltage AC sources.</p>
+
+<p>As mentioned in the backstory for this project, resistance measurement is also a bit of an issue. The resistor in the picture at the top of the page is 2.2kohms with 5% tolerance, but because the resistive voltage divider circuit is powered directly from the batteries and the ADC has an internal reference, the resistance measurement circuit is highly sensitive to how fully charged the batteries are.</p>
+
+<p>You might also notice multiple unpopulated IC sockets and large resistor array on the left of the board. These are evidence of my original plan to include some <a href="https://www.sparkfun.com/products/retired/12710">small red HP bubble displays</a> in addition to the HCMS display, but unfortunately I ran out of time and wiring space before finishing this part of the board.</p>
+
+<p>Unfortunately I wasn&rsquo;t very careful about documenting the design of this project, or keeping the software in an easy to find place. I still haven&rsquo;t found a working version of it on my computer, or any of the schematics I drew on paper.</p>
+
+<h2 id="non-issues">Non-issues</h2>
+
+<p>The voltage measurement functionality is definitely the highlight of this project. Because the ADS1115 has a highly accurate internal voltage reference, and because I calibrated it using my Fluke 87V multimeter, voltage is accurate to +/- 2 least significant digits on the display, or about +/-20mV.</p>
+
+<p>I haven&rsquo;t found the software or schematics yet, but I do remember that it averages several readings from the ADS1115 and feeds it into a linear function that converts the ADC value into a voltage, which is displayed on the screen. The meter is calibrated by adjusting the values in the linear conversion function.</p>
+
+<p>This could be called a feature or a drawback, but I&rsquo;m going to call it a feature. The meter has separate pins for voltage measurement and resistance measurement. This makes it easy to quickly toggle between probing a circuit with the two voltage leads and sticking a resistor in the two holes that are spaced to easily accomodate a resistor.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://aaronschraner.com/" >
+    &copy; 2019 Aaron Schraner
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

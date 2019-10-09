@@ -67,7 +67,7 @@ The calculated max current output for the boost converter is `I = 3A * (OCR0A/25
    
    The cathode of the LEDs is also fed to an analog input to enable the MCU to detect if the runaway protection circuit is triggered, though this is not yet implemented in the software.
    
-   More details on the implementation of the remote are available on my [audio visualizer project post](/posts/LED-strip-audio-vis)
+   More details on the implementation of the remote are available on my [audio visualizer project post](/posts/led-strip-audio-vis)
 
 ### Software
    The code for this project is posted at https://github.com/aaronschraner/glasses
